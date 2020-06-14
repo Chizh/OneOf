@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <LangVersion>8</LangVersion>
+        <Nullable>disable</Nullable>
+        <Authors>Andrey Chizh</Authors>
+        <RepositoryUrl>https://github.com/Chizh/One-Of</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <Title>
+            One Of
+        </Title>
+        <PackageDescription>
+            Discriminated unions for C#
+        </PackageDescription>
+        <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+        <AssemblyName>RetailRocket.OneOf</AssemblyName>
+        <RootNamespace>RetailRocket.OneOf</RootNamespace>
+    </PropertyGroup>
+    
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <LangVersion>8</LangVersion>
+        <Nullable>enable</Nullable>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <None Include="LICENSE.txt" Pack="true" PackagePath="LICENSE.txt" />
+    </ItemGroup>
+    
+</Project>
