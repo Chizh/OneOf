@@ -33,6 +33,6 @@ jobs:
       env:
         NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
         RELEASE_VERSION: ${{ steps.vars.outputs.tag }}
-      run: dotnet nuget push ./OneOf/bin/Release/OneOf.$RELEASE_VERSION.nupkg
+      run: dotnet nuget push ./OneOf/bin/Release/RetailRocket.OneOf.$RELEASE_VERSION.nupkg
               --source https://api.nuget.org/v3/index.json
               --api-key "$NUGET_API_KEY"
